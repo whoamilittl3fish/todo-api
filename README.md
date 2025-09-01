@@ -20,6 +20,10 @@ todo = Todo(
 )
 ```
 
+### Flow when client sending a POST
+
+`main.py` will call to do the flow, first FastAPI receives that request, check the data with `TodoCreate` in schema.py (
+
 Test `FastAPI` with GET, POST, PUT, DELETE with swagger UI.
 
 <img width="1528" height="803" alt="image" src="https://github.com/user-attachments/assets/b73d66a3-78f2-436e-9f2d-85ea6c5bde5a" />

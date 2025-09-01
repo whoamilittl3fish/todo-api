@@ -1,7 +1,23 @@
 # todo-api
 ### This is todo list using `FastAPI`, `Python`, `SQLite` database first create and turn into `PostpreSQL` by `sqlachemy lib` (in progress).
 
-#### Todo model id, title, description, complete
+### Todo Model
+
+| Field       | Type     | Description           |
+|------------|---------|----------------------|
+| id         | Integer | Primary key, auto-increment |
+| title      | String  | Title of the todo    |
+| description| String  | Optional, todo details |
+| completed  | Boolean | True if task is done |
+
+```python
+# Example usage
+todo = Todo(
+    id=1,
+    title="Learn FastAPI",
+    description="Read docs and create sample app",
+    completed=False
+)
 
 Test `FastAPI` with GET, POST, PUT, DELETE with swagger UI.
 

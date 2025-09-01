@@ -1,5 +1,5 @@
 # todo-api
-### This is todo list using `FastAPI`, `Python`, `SQLite` database first create and turn into `PostpreSQL` by sqlachemy lib (in progress).
+### This is todo list using `FastAPI`, `Python`, `SQLite` database first create and turn into `PostpreSQL` by `sqlachemy lib` (in progress).
 
 Test `FastAPI` with GET, POST, PUT, DELETE with swagger UI.
 

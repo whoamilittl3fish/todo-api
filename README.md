@@ -22,7 +22,7 @@ todo = Todo(
 
 ### Flow when client sending a POST
 
-main.py handles the flow as follows: first, FastAPI receives the request and validates the data using TodoCreate from schemas.py (Pydantic library). Then, it parses the JSON into an object and calls functions in crud.py to create the data in the database. Finally, FastAPI validates the response data again using the response model and sends it back to the client.
+main.py orchestrates the workflow: FastAPI first receives the request and validates the input using the TodoCreate model from schemas.py (Pydantic). It then converts the JSON into a Python object and calls crud.py to store the data in the database. Finally, FastAPI validates the response using the response model and returns it to the client.
 
 ### Demo
 Test `FastAPI` with GET, POST, PUT, DELETE with swagger UI.
